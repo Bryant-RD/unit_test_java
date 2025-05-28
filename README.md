@@ -23,31 +23,13 @@ cd calculo-nomina-tdd
 
 ### 🧪 Paso 2: Ejecutar pruebas con Maven
 ```bash
-mvn test
+ ./gradlew test
 ```
 
 ### 💻 Paso 3 (opcional): Ejecutar desde el IDE
 1. Abre el proyecto en IntelliJ IDEA o VS Code.
 2. Dirígete a `ServicioNominaTest.java`.
 3. Haz clic derecho sobre la clase y selecciona **Run 'ServicioNominaTest'**.
-
----
-
-## 📁 Estructura del Proyecto
-
-```
-src
-├── main
-│   └── java
-│       └── nomina
-│           ├── Empleado.java
-│           ├── TipoEmpleado.java
-│           └── ServicioNomina.java
-└── test
-    └── java
-        └── nomina
-            └── ServicioNominaTest.java
-```
 
 ---
 
